@@ -44,6 +44,7 @@
     "esbuild": "^0.14.51"
   },
   "dependencies": {
-    "blazy": "^1.8.2"
+    "blazy": "^1.8.2",
+    "normalize.css": "^8.0.1"
   }
 }
