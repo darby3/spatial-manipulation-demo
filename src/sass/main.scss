@@ -1,0 +1,15 @@
+@import "global/variables";
+
+body {
+  margin: var(--outer-margin);
+  background-color: darkslategray;
+  color: lightcyan;;
+
+  display: flex;
+  flex-flow: column nowrap;
+  min-height: calc(100vh - 2 * var(--outer-margin));
+
+  main {
+    flex-grow: 1;
+  }
+}
